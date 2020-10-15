@@ -39,7 +39,7 @@ void print(int*a,int n)
 void increment(int*a,int i,int key)
 {
     if(key<a[i])
-       cout<<"u are supposed to increment the value"<<endl;
+       cout<<"increament the value"<<endl;
     else
     { a[i]=key;
 
@@ -60,10 +60,10 @@ int main()
 {
    int x,k;
    cout<<endl;
-   cout<<"enter no of elment";
+   cout<<"enter total no of elment";
    cin>>x;
    int a[x+1];
-   a[0]=-1;
+   a[0]=a[0]-1;
    for(int i=0;i<x;i++)
    {
       int j=i+1;
@@ -92,10 +92,10 @@ int main()
     cin>>y;
     for(int i=0;i<y;i++)
     {
-      cout<<"enteer ur choice of index to be changed"<<endl;
+      cout<<"enter index to be changed"ndex to be chang<<endl;
       int j;
       cin>>j;
-      cout<<"now enter the value"<<endl;
+      cout<<"enter value"<<endl;
       int val;
       cin>>val;
       increment(a,j,val);
